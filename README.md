@@ -97,9 +97,9 @@ These scripts do not perform any analysis; they simply automate the collection a
 
 | Script | Purpose | Output File | Source |
 |--------|----------|--------------|--------|
-| `[fetch_prices.py]()` | Downloads monthly **adjusted close prices** for 10 stocks and the **S&P 500 (^GSPC)** | `[prices_monthly.csv]()` | Yahoo Finance |
-| `[fetch_factors.py]()` | Retrieves **Fama–French 3-Factor data** (MKT−RF, SMB, HML, RF) | `[ff_factors_monthly.csv]()` | Kenneth R. French Data Library |
-| `[fetch_rf.py]()` | Pulls **3-month Treasury Bill (DTB3)** data, converts it to **monthly decimal RF** | `[rf_dtb3_monthly.csv]()` | FRED (Federal Reserve) |
+| [fetch_prices.py](https://github.com/shaheerAzam-dev/Fama-French-3-Factor-Markowitz-Portfolio-in-Excel/blob/main/python/FetchPrices.py) | Downloads monthly **adjusted close prices** for 10 stocks and the **S&P 500 (^GSPC)** | [prices_monthly.csv](https://github.com/shaheerAzam-dev/Fama-French-3-Factor-Markowitz-Portfolio-in-Excel/blob/main/data/prices_monthly.csv) | Yahoo Finance |
+| [fetch_factors.py](https://github.com/shaheerAzam-dev/Fama-French-3-Factor-Markowitz-Portfolio-in-Excel/blob/main/python/FetchFactors.py) | Retrieves **Fama–French 3-Factor data** (MKT−RF, SMB, HML, RF) | [ff_factors_monthly.csv](https://github.com/shaheerAzam-dev/Fama-French-3-Factor-Markowitz-Portfolio-in-Excel/blob/main/data/ff_factors_monthly.csv) | Kenneth R. French Data Library |
+| [fetch_rf.py](https://github.com/shaheerAzam-dev/Fama-French-3-Factor-Markowitz-Portfolio-in-Excel/blob/main/python/FetchRF.py) | Pulls **3-month Treasury Bill (DTB3)** data, converts it to **monthly decimal RF** | [rf_dtb3_monthly.csv](https://github.com/shaheerAzam-dev/Fama-French-3-Factor-Markowitz-Portfolio-in-Excel/blob/main/data/rf_dtb3_monthly.csv) | FRED (Federal Reserve) |
 
 Each script automatically sets the date range (last 7 years) and outputs a clean CSV ready for import into Excel.  
 
