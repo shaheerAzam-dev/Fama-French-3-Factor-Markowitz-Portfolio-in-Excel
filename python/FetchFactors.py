@@ -38,3 +38,4 @@ if __name__ == "__main__":
     ff = fetch_ff_monthly()
     ff.to_csv("ff_factors_monthly.csv", float_format="%.6f")
     print("Saved ff_factors_monthly.csv (monthly decimals).")
+
