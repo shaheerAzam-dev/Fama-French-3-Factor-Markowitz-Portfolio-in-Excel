@@ -233,6 +233,8 @@ Linear (approximation) Annualization:
 
 $$ 12 \times E_{monthly} $$
 
+<img width="438" height="386" alt="image" src="https://github.com/user-attachments/assets/d3e4d112-5ac5-4006-82d4-22004b1ce64e" />
+
 Notes:
 - RF should be the monthly average over the same sample used for factor means.
 - Setting α = 0 is a conservative and standard forward-looking assumption.
