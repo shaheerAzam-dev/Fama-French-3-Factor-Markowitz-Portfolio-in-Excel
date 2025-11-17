@@ -8,15 +8,13 @@ Introduction
 
 This project demonstrates the full workflow of portfolio construction for 10 large NYSE stocks, combining Fama–French 3-factor regression analysis with Markowitz mean-variance optimization in Excel.
 
-We leverage historical stock and factor data to:
+It leverages historical stock and factor data to:
 
 *   Estimate expected returns using factor models
 *   Calculate portfolio risk via covariance matrices
 *   Construct optimal portfolios (Minimum Variance and Tangency) using Excel Solver
 *   Visualize results and provide a clear, report-ready summary
     
-The goal is to connect academic theory with practical, hands-on portfolio management in a transparent, reproducible way.
-
 ### Quick Links
 
 01. Raw Data: Yahoo Finance (Adjusted Close) — [https://finance.yahoo.com/](https://finance.yahoo.com/)
